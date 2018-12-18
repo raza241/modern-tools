@@ -1,0 +1,201 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	margin:0;
+	padding:0;
+	font-family:'Open Sans', sans-serif;
+}
+.container{
+	width:980px;
+	margin:0 auto;
+	padding:60px 0;
+	text-align:center;
+}
+#banner{
+	background:#0e80f2;
+	width:100%;
+}
+#banner .container span{
+	color:#fff;
+	font-size:40px;
+	margin:0;
+	text-transform:uppercase;
+}
+#banner .container h1{
+	font-size:60px;
+	color:#fff;
+	margin:20px 0;
+	text-transform:uppercase;
+}
+#banner .container ul{
+	list-style:none;
+	padding:0;
+	margin:0;
+}
+#banner .container ul li{
+	display:inline-block;
+	margin:0 35px;
+}
+#banner .container ul li a{
+	text-decoration:none;
+	display:block;
+	border:3px solid #fff;
+	padding:10px 20px;
+	color:#fff;
+	text-transform:capitalize;
+	width:100px;
+}
+#banner .container ul li a:hover{
+	background:#fff;
+	color:#0e80f2;
+}
+#content{
+	background:#fff;
+	width:100%;
+}
+#content .container h6{
+	color:#000;
+	text-transform:capitalize;
+	font-size:40px;
+	margin:0 0 15px;
+	position:relative;
+	padding:0 0 12px;
+}
+#content .container h6:after{
+	position:absolute;
+	bottom:0;
+	left:0;
+	right:0;
+	content:'';
+	width:26%;
+	height:3px;
+	margin:0 auto;
+	background:#0e80f2;
+}
+#content .container ul{
+	list-style:none;
+	padding:30px 0 0;
+	margin:0;
+}
+#content .container ul li{
+	display:inline-block;
+	width:24%;
+}
+#content .container ul li .icon .fa{
+	font-size:36px;
+	color:#0e80f2;
+	margin:0 0 15px;
+}
+#content .container ul li span{
+	font-size:16px;
+	font-weight:bold;
+	display:block;
+	margin:0 0 15px;
+	text-transform:capitalize;
+}
+#content .container ul li p{
+	font-size:12px;
+}
+#overview{
+	background:#d5d5d5;
+	width:100%;
+}
+#overview .container h6{
+	color:#000;
+	text-transform:capitalize;
+	font-size:40px;
+	margin:0 0 50px;
+	position:relative;
+	padding:0 0 12px;
+}
+#overview .container h6:after{
+	position:absolute;
+	bottom:0;
+	left:0;
+	right:0;
+	content:'';
+	width:26%;
+	height:3px;
+	margin:0 auto;
+	background:#eeeeee;
+}
+#overview .container ul{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+#overview .container ul li{
+	display:inline-block;
+	margin:0 10px;
+}
+#overview .container ul li .column-1{
+	width: 125px;
+    height: 180px;
+    background: #fff;
+	
+}
+#overview .container ul li .column-2{
+	width: 80px;
+    margin: 10px 0 0 45px;
+    height: 120px;
+    background: #fff;
+}
+#overview .container ul li .column-3{
+	width: 150px;
+    height: 200px;
+    background: #0e80f2;
+	margin:0 0 30px;
+}
+#overview .container ul li .column-4{
+	width: 100px;
+    height: 130px;
+    background: #fff;
+	
+}
+#overview .container ul li .column-5{
+	width: 130px;
+    margin: 10px 0 0;
+    height: 170px;
+    background: #0e80f2;
+}
+@media screen and (min-width:768px) and (max-width:980px){
+	.container{
+		width:768px;
+	}
+	#banner .container ul li{
+		margin:0 10px 10px;
+	}
+}
+@media screen and (min-width:360px) and (max-width:767px){
+	.container{
+		width:360px;
+	}
+	#banner .container h1 {
+    	font-size: 54px;
+	}
+	#banner .container ul li {
+		margin:0 35px 10px;
+	}
+	#content .container ul li{
+		width:100%;
+	}
+	#overview .container ul li{
+		margin:0;
+	}
+	#overview .container ul li .column-1 {
+    	width: 92px;
+	}
+	#overview .container ul li .column-2 {
+    	width: 47px;
+	}
+	#overview .container ul li .column-3 {
+    	width: 97px;
+	}
+	#overview .container ul li .column-4 {
+    	width: 68px;
+	}
+	#overview .container ul li .column-5 {
+    	width: 92px;
+	}
+
+}
